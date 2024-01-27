@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean of Games</title>
+    <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+
+<body>
+    <div class="w3-container w3-black" style="max-width: 100%;height: auto;padding: 0;margin: 0;">
+        <div class="w3-black" style="">
+            <div class="w3-container" style="max-width: 100%;height: auto;padding: 0;margin: 0;">
+                <img src="img/tes2.png" alt="gambar" style="max-width: 100%;height: auto;">
+            </div>
+            <div class="w3-container">
+                <p>
+                <div class="w3-bar w3-deep-purple w3-round-xlarge" style="max-width: 100%;height: auto;;">
+                    <button class="w3-bar-item w3-button" onclick="opengame('Home')">Home</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('Adventure')">Adventure</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('Fighting')">Fighting</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('Racing')">Racing</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('FPS')">FPS</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('Horror')">Horror</button>
+                    <button class="w3-bar-item w3-button" onclick="opengame('Survival')">Survival</button>
+                    <div class="w3-dropdown-hover">
+                        <button class="w3-button">About Me</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                            <button class="w3-bar-item w3-button" onclick="opengame('Profile')">Profile</button>
+                            <button class="w3-bar-item w3-button" onclick="opengame('Favorite')">My Favorite
+                                Games</button>
+                        </div>
+                    </div>
+                    <input style="" type="text" name="Search" id="Search" placeholder="Search...">
+                </div>
+                </p>
+
+                <p>
+                <div id="Home" class="w3-container w3-deep-purple w3-round-xlarge game">
+                    <h1>Selamat Datang!!!</h1>
+                    <h2>Games teratas saat ini:</h2>
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" style="max-width: 100%;height: auto;"
+                                    src="img/lethal.jpg" alt="lethal">
+                            <td>
+                                <h2>Lethal Company</h2>
+                                <p>Game horor kooperatif yang mengharuskan Anda bekerja sama dengan teman-teman Anda
+                                    untuk
+                                    mengumpulkan barang bekas dari bulan-bulan yang ditinggalkan dan menjualnya ke
+                                    Perusahaan. Anda harus berhati-hati dengan jebakan, bahaya lingkungan, dan
+                                    makhluk mengerikan yang menghuni bulan.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" style="max-width: 100%;height: auto;"
+                                    src="img/tekken.jpg" alt="tekken">
+                            <td>
+                                <h2>Tekken 8</h2>
+                                <p>Game ini adalah game pertarungan yang merupakan seri kedelapan dari seri Tekken.
+                                    Game
+                                    ini menampilkan berbagai karakter yang memiliki gaya bertarung dan kemampuan unik.
+                                    Pemain dapat bertarung melawan pemain lain atau AI dalam berbagai mode, seperti
+                                    Arcade, Story, Online, dan Tournament.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/valo.jpg" alt="valo"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Valorant</h2>
+                                <p>Game ini adalah game tembak-tembakan yang merupakan game baru dari Riot Games. Game
+                                    ini menampilkan berbagai karakter yang memiliki kemampuan spesial dan senjata.
+                                    Pemain dapat bertarung melawan pemain lain dalam berbagai mode, seperti Unrated,
+                                    Competitive, Spike Rush, dan Deathmatch.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+
+                <p>
+                <div id="Adventure" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td style="font-size: 50px;">Adventure
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/hogwart.jpg" alt="hogwart"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Hogwarts Legacy</h2>
+                                <p> Game ini adalah game petualangan yang berlatar di dunia sihir Harry Potter. Pemain
+                                    dapat membuat karakter penyihir mereka sendiri dan menjelajahi sekolah sihir
+                                    Hogwarts dan sekitarnya. Pemain juga dapat belajar mantra, bertarung dengan makhluk
+                                    magis, dan mengungkap rahasia tersembunyi.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/horizon.jpg" alt="horizon"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Horizon Forbidden West</h2>
+                                <p>Game ini adalah game aksi yang merupakan sekuel dari Horizon Zero Dawn. Pemain
+                                    mengendalikan Aloy, seorang pemburu yang hidup di dunia pasca-apokaliptik yang
+                                    dikuasai oleh mesin. Pemain dapat menjelajahi berbagai lanskap yang spektakuler,
+                                    menghadapi mesin yang ganas, dan budaya yang berkembang.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/gow.jpg" alt="gow"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>God of War Ragnarok</h2>
+                                <p>Game ini adalah game aksi yang merupakan reboot dari seri God of War. Pemain
+                                    mengendalikan Kratos, seorang dewa Yunani yang pindah ke dunia mitologi Nordik.
+                                    Pemain juga dapat bermain sebagai Atreus, putra Kratos, yang membantunya dalam
+                                    pertempuran dan eksplorasi. Menampilkan pertarungan brutal.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="Fighting" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table>
+                        <tr>
+                            <td style="font-size: 50px;">Fighting
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/tekken.jpg" alt="tekken"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Tekken 8</h2>
+                                <p>Game ini adalah game pertarungan yang merupakan seri kedelapan dari seri Tekken. Game
+                                    ini menampilkan berbagai karakter yang memiliki gaya bertarung dan kemampuan unik.
+                                    Pemain dapat bertarung melawan pemain lain atau AI dalam berbagai mode, seperti
+                                    Arcade, Story, Online, dan Tournament.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/sf6.jpg" alt="sf6"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Street Fighter 6</h2>
+                                <p>Game ini adalah game pertarungan yang merupakan seri keenam dari seri Street Fighter.
+                                    Game ini menampilkan berbagai karakter yang memiliki jurus khusus dan kemampuan
+                                    V-Trigger. Pemain dapat bertarung melawan pemain lain atau AI dalam berbagai mode,
+                                    seperti Versus, Story, Arcade, dan Online.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/mk.jpg" alt="mk"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Mortal Kombat</h2>
+                                <p>Game ini adalah game pertarungan yang merupakan seri pertama dari seri Mortal Kombat.
+                                    Game ini menampilkan berbagai karakter yang memiliki jurus fatalitas dan babality.
+                                    Pemain dapat bertarung melawan pemain lain atau AI dalam berbagai mode, seperti
+                                    Tournament, Test Your Might, dan Endurance.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="Racing" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table>
+                        <tr>
+                            <td style="font-size: 50px;">Racing
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/ctr.jpg" alt="ctr"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Crash Team Racing</h2>
+                                <p>Game ini adalah game balapan yang merupakan spin-off dari seri Crash Bandicoot. Game
+                                    ini menampilkan berbagai karakter dan kendaraan dari seri tersebut. Pemain dapat
+                                    balapan melawan pemain lain atau AI dalam berbagai mode, seperti Adventure, Time
+                                    Trial, Battle, dan CTR Challenge.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/forza.jpg" alt="forza"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Forza Horizon 5</h2>
+                                <p>Game ini adalah game balapan yang merupakan seri kelima dari seri Forza Horizon. Game
+                                    ini menampilkan berbagai mobil dan lokasi yang realistis. Pemain dapat balapan
+                                    melawan pemain lain atau AI dalam berbagai mode, seperti Horizon Story, Showcase,
+                                    Playground, dan Online.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/nfs.jpg" alt="nfs"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Need For Speed Heat</h2>
+                                <p>Game ini adalah game balapan yang merupakan seri ke-24 dari seri Need for Speed. Game
+                                    ini menampilkan berbagai mobil dan lokasi yang fiksi. Pemain dapat balapan melawan
+                                    pemain lain atau AI dalam berbagai mode, seperti Campaign, Night, Day, dan Online.
+                                </p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="FPS" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table>
+                        <tr>
+                            <td style="font-size: 50px;">First Person Shooter
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/valo.jpg" alt="valo"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Valorant</h2>
+                                <p>Game ini adalah game tembak-tembakan yang merupakan game baru dari Riot Games. Game
+                                    ini menampilkan berbagai karakter yang memiliki kemampuan spesial dan senjata.
+                                    Pemain dapat bertarung melawan pemain lain dalam berbagai mode, seperti Unrated,
+                                    Competitive, Spike Rush, dan Deathmatch.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/apex.jpg" alt="apex"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Apex Legends</h2>
+                                <p>Game ini adalah game tembak-tembakan yang merupakan spin-off dari seri Titanfall.
+                                    Game ini menampilkan berbagai karakter yang memiliki peran dan kemampuan spesial.
+                                    Pemain dapat bertarung melawan pemain lain dalam berbagai mode, seperti Battle
+                                    Royale, Arenas, Ranked, dan Events.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/cs2.jpg" alt="cs2"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Counter Strike 2</h2>
+                                <p>Game ini adalah game tembak-tembakan yang merupakan sekuel dari Counter Strike. Game
+                                    ini menampilkan berbagai karakter yang terbagi menjadi dua tim, yaitu
+                                    Counter-Terrorists dan Terrorists. Pemain dapat bertarung melawan pemain lain dalam
+                                    berbagai mode, seperti Bomb Defusal, Hostage Rescue, Assassination, dan Escape.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="Horror" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table>
+                        <tr>
+                            <td style="font-size: 50px;">Horror
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/lethal.jpg" alt="lethal"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Lethal Company</h2>
+                                <p>Game horor kooperatif yang mengharuskan Anda bekerja sama dengan teman-teman Anda
+                                    untuk
+                                    mengumpulkan barang bekas dari bulan-bulan yang ditinggalkan dan menjualnya ke
+                                    Perusahaan. Anda harus berhati-hati dengan jebakan, bahaya lingkungan, dan
+                                    makhluk mengerikan yang menghuni bulan.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/devour.jpg" alt="devour"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Devour</h2>
+                                <p>Game ini adalah game horor yang merupakan prekuel dari The Watchers. Game ini
+                                    menampilkan berbagai karakter yang harus bekerja sama untuk menghentikan seorang
+                                    iblis yang menguasai seorang wanita. Pemain dapat bermain bersama pemain lain atau
+                                    AI dalam berbagai mode, seperti Survival, Escape, Ritual, dan Nightmare.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/phasmo.jpg" alt="phasmo"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Phasmophobia</h2>
+                                <p>Game ini adalah game horor yang merupakan game indie dari developer Kinetic Games.
+                                    Game ini menampilkan berbagai karakter yang harus menyelidiki aktivitas paranormal
+                                    di berbagai lokasi. Pemain dapat bermain bersama pemain lain atau AI dalam berbagai
+                                    mode, seperti Investigation, Hunt, Exorcism, dan Sandbox.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="Survival" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <table>
+                        <tr>
+                            <td style="font-size: 50px;;">Survival
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table border="5" class="w3-animate-right" style="max-width: 100%;height: auto;">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/minecraft.jpg" alt="minecraft"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Minecraft</h2>
+                                <p>Game ini adalah game sandbox yang merupakan game populer dari developer Mojang. Game
+                                    ini menampilkan berbagai karakter yang dapat membuat, menghancurkan, dan menjelajahi
+                                    dunia yang terbuat dari blok. Pemain dapat bermain sendiri atau bersama pemain lain
+                                    dalam berbagai mode, seperti Survival, Creative, Adventure, dan Hardcore.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-left">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/rust.jpg" alt="rust"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>Rust</h2>
+                                <p>Game ini adalah game survival yang merupakan game indie dari developer Facepunch
+                                    Studios. Game ini menampilkan berbagai karakter yang harus bertahan hidup di dunia
+                                    yang penuh dengan bahaya, seperti binatang, pemain lain, dan radiasi. Pemain dapat
+                                    bermain sendiri atau bersama pemain lain dalam berbagai mode, seperti Solo, Duo,
+                                    Trio, dan Clan.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="5" class="w3-animate-right">
+                        <tr>
+                            <td>
+                                <img class="w3-animate-fading" src="img/theforest.jpg" alt="theforest"
+                                    style="max-width: 100%;height: auto;">
+                            <td>
+                                <h2>The Forest</h2>
+                                <p>Game ini adalah game survival yang merupakan game indie dari developer Endnight
+                                    Games. Game ini menampilkan seorang karakter yang harus bertahan hidup di sebuah
+                                    pulau yang dihuni oleh suku kanibal. Pemain dapat bermain sendiri atau bersama
+                                    pemain lain dalam berbagai mode, seperti Story, Sandbox, Peaceful, dan Hard.</p>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </p>
+
+                <p>
+                <div id="Profile" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <center>
+                        <p>
+                            <br>
+                            <img src="img/profile2.jpg" alt="Profile"
+                                style="max-width: 100%;height: auto;width: 300px;border-radius: 90%;">
+                            <br>
+                        <h1>Rafly Rayhansyah</h1>
+                        <h3>10123218</h3>
+                        <h3>IF-6</h3>
+                        <p>
+                            My name is Rafly Rayhansyah. I am a student majoring in informatics engineering at
+                            Universitas Komputer Indonesia. I have a hobby of playing games, especially FPS, strategy,
+                            and adventure games. I also have interest and talent in technology, especially web
+                            development, android development, and game development. I want to share my project and my
+                            experience in this field, even though it's ordinary hehe. I hope this project can be my
+                            passion to keep learning and also an inspiration for people who have the same passion as me.
+                            Thank you for visiting my project.
+                        </p>
+
+
+                        </p>
+                    </center>
+                </div>
+                </p>
+
+                <p>
+                <div id="Favorite" class="w3-container w3-deep-purple w3-round-xlarge game"
+                    style="display:none;max-width: 100%;height: auto;">
+                    <h1>My Favorite Games</h1>
+                    <br>
+                    <p>
+                        <center>
+                            <img src="img/valo.jpg" alt="valo"
+                                style="max-width: 100%;height: auto;width: 405px;border-radius: 90%;">
+                            <img src="img/lethal.jpg" alt="lethal"
+                                style="max-width: 100%;height: auto;width: 405px;border-radius: 90%;">
+                            <img src="img/minecraft.jpg" alt="minecraft"
+                                style="max-width: 100%;height: auto;width: 405px;border-radius: 90%;">
+                        </center>
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function opengame(namagame) {
+            var i;
+            var x = document.getElementsByClassName("game");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(namagame).style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
